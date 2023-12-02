@@ -6,13 +6,14 @@ import Contact from './pages/contact';
 import Resume from './pages/resume';
 import Portfolio from './pages/portfolio';
 import Skills from './pages/skills';
+import Navbar from './components/navBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
     <div className="App">
-      
+      <Navbar/>
       app
       <Routes>
         <Route path='/' element={<Home/>}></Route>
