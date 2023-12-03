@@ -5,6 +5,7 @@
     align-items: center;
     height: 80px;
     font-size: 1.2rem;
+    position: sticky;
 
     &__container {
 
@@ -21,7 +22,8 @@
             text-decoration: none;
             font-weight: 900;
             font-size: 2rem;
-            &::first-letter{
+
+            &::first-letter {
                 color: var(--yellow-theme-main-color);
             }
         }
@@ -77,18 +79,20 @@
         opacity: 1;
         transition: all 0.5 ease;
 
-        &.active{
+        &.active {
             background: --yellow-theme-nav-background-color;
             left: 0;
             opacity: 1;
         }
-        &__item{
+
+        &__item {
             margin: 0px;
             padding: 20px 0px;
             border-bottom: 1px solid #282828;
         }
     }
-    .nav-icon{
+
+    .nav-icon {
         display: block;
         cursor: pointer;
         color: var(--yellow-theme-main-color);
