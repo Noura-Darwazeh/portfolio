@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaReact } from 'react-icons/fa'
 import { HiX } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
+import './styles.scss'
 const data = [{
     label: 'HOME',
     to: '/'
@@ -10,14 +11,7 @@ const data = [{
     label: 'ABOUT ME',
     to: '/about'
 },
-{
-    label: 'SKILLS',
-    to: '/skills'
-},
-{
-    label: 'RESUME',
-    to: '/resume'
-},
+
 {
     label: 'CONTACT',
     to: '/contact'
@@ -26,15 +20,11 @@ const data = [{
     label: 'PORTFOLIO',
     to: '/portfolio'
 },
-
-
-
-
 ]
 const Navbar = () => {
-    const [toggelIcon, setToggelIcon]=useState(false)
+    const [toggelIcon, setToggelIcon] = useState(false)
 
-    const handleToggelIcon=()=>{
+    const handleToggelIcon = () => {
         setToggelIcon(!toggelIcon)
     }
     return (
@@ -42,11 +32,11 @@ const Navbar = () => {
             <nav className='navbar'>
                 <div className='navbar__container'>
                     <Link to={'/'} className='navbar__container__logo'>
-                        <FaReact size={30} />
+                    NOURA
                     </Link>
                 </div>
 
-                <ul className='navbar__container__menu'>
+                <ul className={`navbar__container__menu ${toggelIcon ? 'active' : ''}`}>
                     {data.map((item, key) => (
                         <li key={key} className='navbar__container__menu__item'>
                             <Link className='navbar__container__menu__item__linkes' to={item.to}>
@@ -61,7 +51,7 @@ const Navbar = () => {
 
                 <div className='nav-icon' onClick={handleToggelIcon}>
                     {
-                        toggelIcon? <HiX size={30}/> : <FaBars size={30}/>
+                        toggelIcon ? <HiX size={30} /> : <FaBars size={30} />
                     }
                 </div>
             </nav>
