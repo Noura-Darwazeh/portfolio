@@ -1,0 +1,15 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__skillIcon {
+        color: var(--yellow-theme-main-color);
+    }
+
+    &__skillTitle {
+        color: var(--yellow-theme-main-color);
+
+    }
+}

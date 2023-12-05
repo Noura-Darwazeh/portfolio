@@ -1,0 +1,13 @@
+.wrapper {
+    color: var(--yellow-theme-main-color);
+    padding: 20px;
+    border-bottom: 1px dashed var(--yellow-theme-main-color);
+    text-align: center;
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase
+    }
+}
