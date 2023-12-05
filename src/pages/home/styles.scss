@@ -1,0 +1,73 @@
+.home {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 100px;
+
+    &__image img {
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    &__content {
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+
+        &__hello {
+            font-size: 1.75rem;
+            font-weight: 100;
+        }
+
+        &__text__name {
+            color: var(--yellow-theme-main-color);
+        }
+
+        &__paragraph{
+            width: 80%;
+            font-weight: 500;
+            color: gray;
+        }
+
+        &__socialMedia__link{
+            color: var(--yellow-theme-main-color);
+            font-size: 3rem;
+            margin-right: 2rem;
+        }
+
+        &__downloadCvBtn{
+            width: 10rem;
+            padding: 5px;
+            margin-top: 5px;
+            background-color: var(--yellow-theme-nav-background-color);
+            transition: background-color .3s,transform .3s;
+            margin-top: 2rem;
+
+            &_link{
+                text-decoration: none;
+                color:var(--yellow-theme-main-color) ;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .home {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+    &__content {
+        color: white;
+        font-size: 1.5rem;
+        
+    }
+}
+}

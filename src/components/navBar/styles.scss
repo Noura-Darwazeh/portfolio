@@ -80,9 +80,10 @@
         transition: all 0.5 ease;
 
         &.active {
-            background: --yellow-theme-nav-background-color;
+            background:var(--yellow-theme-nav-background-color) ;
             left: 0;
             opacity: 1;
+        
         }
 
         &__item {

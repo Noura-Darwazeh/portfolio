@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import About from './pages/about'
 import Home from './pages/home';
 import Contact from './pages/contact';
@@ -22,17 +22,17 @@ function App() {
         <Particles id='particals' options={particles} init={handleInit} />
 
         <Navbar />
-        app
-        <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/about' element={<About />}></Route>
-          <Route path='/skills' element={<Skills />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/resume' element={<Resume />}></Route>
-          <Route path='/portfolio' element={<Portfolio />}></Route>
 
-
-        </Routes>
+        <div className='App__main-page-content'>
+          <Routes>
+            <Route path='/' element={<Home />}></Route>
+            <Route path='/about' element={<About />}></Route>
+            <Route path='/skills' element={<Skills />}></Route>
+            <Route path='/contact' element={<Contact />}></Route>
+            <Route path='/resume' element={<Resume />}></Route>
+            <Route path='/portfolio' element={<Portfolio />}></Route>
+          </Routes>
+        </div>
       </div>
     </Router>
   );
