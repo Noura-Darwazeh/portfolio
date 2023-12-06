@@ -32,7 +32,7 @@ const Navbar = () => {
             <nav className='navbar'>
                 <div className='navbar__container'>
                     <Link to={'/'} className='navbar__container__logo'>
-                    NOURA
+                        NOURA
                     </Link>
                 </div>
 
