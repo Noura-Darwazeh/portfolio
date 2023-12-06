@@ -85,9 +85,17 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
     .projects__content__cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+@media only screen and (max-width: 481px) {
+    .projects__content__cards {
+        grid-template-columns: 1fr ;
 
     }
 
