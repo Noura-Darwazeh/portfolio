@@ -92,17 +92,17 @@ const About = () => {
 
       <PageHeaderContent headerText="Skills" />
       <div className='allSkills'>
-      <Skill className='skill' skillIcon= {<FaHtml5 size={'6rem'} />} skillTitle= "HTML"/>
-      <Skill className='skill' skillIcon= {<FaCss3Alt size={'6rem'} />} skillTitle= "CSS"/>
-      <Skill className='skill' skillIcon= {<FaBootstrap size={'6rem'} />} skillTitle= "BOOTSTRAP"/>
-      <Skill className='skill' skillIcon= {<IoLogoJavascript size={'6rem'} />} skillTitle= "JAVASCRIPT"/>
-      <Skill className='skill' skillIcon= {<FaReact size={'6rem'} />} skillTitle= "REACT"/>
-      <Skill className='skill' skillIcon= {<SiMui size={'6rem'} />} skillTitle= "MATERIAL-UI"/>
-      <Skill className='skill' skillIcon= {<FaGitAlt size={'6rem'} />} skillTitle= "GIT"/>
-      <Skill className='skill' skillIcon= {<FaGithub size={'6rem'} />} skillTitle= "GITHUB"/>
-      <Skill className='skill' skillIcon= {<FaSass size={'6rem'} />} skillTitle= "SAAS"/>
-      <Skill className='skill' skillIcon= {<SiTypescript size={'6rem'} />} skillTitle= "TYPESCRIPT"/>
-</div>
+        <Skill className='skill' skillIcon={<FaHtml5 size={'6rem'} />} skillTitle="HTML" />
+        <Skill className='skill' skillIcon={<FaCss3Alt size={'6rem'} />} skillTitle="CSS" />
+        <Skill className='skill' skillIcon={<FaBootstrap size={'6rem'} />} skillTitle="BOOTSTRAP" />
+        <Skill className='skill' skillIcon={<IoLogoJavascript size={'6rem'} />} skillTitle="JAVASCRIPT" />
+        <Skill className='skill' skillIcon={<FaReact size={'6rem'} />} skillTitle="REACT" />
+        <Skill className='skill' skillIcon={<SiMui size={'6rem'} />} skillTitle="MATERIAL-UI" />
+        <Skill className='skill' skillIcon={<FaGitAlt size={'6rem'} />} skillTitle="GIT" />
+        <Skill className='skill' skillIcon={<FaGithub size={'6rem'} />} skillTitle="GITHUB" />
+        <Skill className='skill' skillIcon={<FaSass size={'6rem'} />} skillTitle="SAAS" />
+        <Skill className='skill' skillIcon={<SiTypescript size={'6rem'} />} skillTitle="TYPESCRIPT" />
+      </div>
     </section>
   )
 }
