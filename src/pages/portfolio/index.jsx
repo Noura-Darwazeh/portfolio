@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PageHeaderContent from '../../components/pageHeaderContent';
-import ImageOne from '../../assets/image/E-Commerce.png';
+import ImageOne from '../../assets/image/E-Commerce.png'
 import './styles.scss';
 
 const projects = [{
