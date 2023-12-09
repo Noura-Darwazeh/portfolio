@@ -18,7 +18,7 @@ const data = [{
 },
 {
     label: 'PROJECTS',
-    to: '/portfolio'
+    to: '/projects'
 },
 ]
 const Navbar = () => {
