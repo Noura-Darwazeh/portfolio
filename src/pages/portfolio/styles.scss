@@ -12,26 +12,27 @@
             margin-top: 10px;
 
             &__item {
-                margin-top: 50px;
-                // height: 366px;
+                margin-top: 30px;
                 cursor: pointer;
                 position: relative;
                 border: 1px solid var(--yellow-theme-main-color);
 
-                &:hover .overlay{
+                &:hover .overlay {
                     opacity: 1;
                 }
 
                 &__img-wrapper {
-                    // height: 100%;
+
 
                     a {
                         height: 100%;
 
                         img {
+
                             height: inherit;
                             object-fit: cover;
                             width: 100%;
+
                         }
                     }
                 }
@@ -60,14 +61,14 @@
                     background-color: rgba(0, 0, 0, 0.8);
 
 
-                    div{
+                    div {
                         position: absolute;
                         top: 50%;
                         left: 50%;
-                        transform: translate(-50%,-50%);
+                        transform: translate(-50%, -50%);
                         text-align: center;
 
-                        button{
+                        button {
                             cursor: pointer;
                             margin-top: 16px;
                             padding: 10px 70px;
@@ -95,7 +96,7 @@
 
 @media only screen and (max-width: 481px) {
     .projects__content__cards {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
 
     }
 
