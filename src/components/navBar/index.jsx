@@ -17,7 +17,7 @@ const data = [{
     to: '/contact'
 },
 {
-    label: 'PORTFOLIO',
+    label: 'PROJECTS',
     to: '/portfolio'
 },
 ]
