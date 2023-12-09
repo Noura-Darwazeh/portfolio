@@ -100,7 +100,7 @@ const About = () => {
         <Skill className='skill' skillIcon={<SiMui size={'6rem'} />} skillTitle="MATERIAL-UI" />
         <Skill className='skill' skillIcon={<FaGitAlt size={'6rem'} />} skillTitle="GIT" />
         <Skill className='skill' skillIcon={<FaGithub size={'6rem'} />} skillTitle="GITHUB" />
-        <Skill className='skill' skillIcon={<FaSass size={'6rem'} />} skillTitle="SAAS" />
+        <Skill className='skill' skillIcon={<FaSass size={'6rem'} />} skillTitle="SASS" />
         <Skill className='skill' skillIcon={<SiTypescript size={'6rem'} />} skillTitle="TYPESCRIPT" />
       </div>
     </section>
