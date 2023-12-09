@@ -9,7 +9,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa6";
 
 const Home = () => {
-  
+
   return (
     <section id='home' className='home'>
       <div className='home__image'>
@@ -24,16 +24,16 @@ const Home = () => {
         <p className='home__content__paragraph'>Front-end developer from Palestine, available for remote work anywhere in the world, and ready to work with others on web projects.</p>
         <br />
         <div className='home__content__socialMedia'>
-        <Link className='home__content__socialMedia__link' to="https://www.facebook.com/noura.darwazeh.7?mibextid=2JQ9oc" target="_blank" rel="noopener noreferrer">
-          <FaFacebook/>
-        </Link>
-        <Link className='home__content__socialMedia__link' to='https://www.linkedin.com/in/nouradarwazeh/'>
-          <BsLinkedin  />
-        </Link>
+          <Link className='home__content__socialMedia__link' to="https://www.facebook.com/noura.darwazeh.7?mibextid=2JQ9oc" target="_blank" rel="noopener noreferrer">
+            <FaFacebook />
+          </Link>
+          <Link className='home__content__socialMedia__link' to='https://www.linkedin.com/in/nouradarwazeh/'>
+            <BsLinkedin />
+          </Link>
 
-        <Link className='home__content__socialMedia__link' to ='https://instagram.com/noura_darwazeh2000?igshid=YTQwZjQ0NmI0OA=='>
-          <FaInstagram  />
-        </Link>
+          <Link className='home__content__socialMedia__link' to='https://instagram.com/noura_darwazeh2000?igshid=YTQwZjQ0NmI0OA=='>
+            <FaInstagram />
+          </Link>
         </div>
         <Animate
           play
@@ -47,8 +47,8 @@ const Home = () => {
           }}
         >
           <button className='home__content__downloadCvBtn'>
-            <Link className='home__content__downloadCvBtn_link' to="https://enhancv-pdfs.s3.amazonaws.com/447ed35594e7350def02e4369799b85a-pdf">
-              Download CV
+            <Link className='home__content__downloadCvBtn_link' to="https://app.enhancv.com/share/5614e77d/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic">
+              My CV
             </Link>
           </button>
         </Animate>
