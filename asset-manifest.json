@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b689ab6f.css",
-    "main.js": "/portfolio/static/js/main.f216dd62.js",
+    "main.js": "/portfolio/static/js/main.af377f6f.js",
     "static/media/E-Commerce.png": "/portfolio/static/media/E-Commerce.f882139703e23120e235.png",
     "static/media/profile.png": "/portfolio/static/media/profile.3ddc3d2c3cb010a749d0.png",
     "static/media/Salonati.jpg": "/portfolio/static/media/Salonati.48ee82c0599f3bba147b.jpg",
+    "static/media/Weather-App.PNG": "/portfolio/static/media/Weather-App.f4f9b1f200eac2964e4e.PNG",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
     "main.b689ab6f.css.map": "/portfolio/static/css/main.b689ab6f.css.map",
-    "main.f216dd62.js.map": "/portfolio/static/js/main.f216dd62.js.map"
+    "main.af377f6f.js.map": "/portfolio/static/js/main.af377f6f.js.map"
   },
   "entrypoints": [
     "static/css/main.b689ab6f.css",
-    "static/js/main.f216dd62.js"
+    "static/js/main.af377f6f.js"
   ]
 }
